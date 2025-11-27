@@ -31,8 +31,8 @@ Aplikasi web sederhana untuk registrasi dan pengenalan wajah menggunakan face-ap
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/andrerio519 /face-recognition-app.git
-cd face-recognition-app
+git clone https://github.com/andrerio519/FaceRecognitionBasic.git
+cd FaceRecognitionBasic
 ```
 
 ### 2. Setup Database
@@ -87,9 +87,9 @@ chmod 777 uploads
 ### 6. Setup Web Server
 
 **XAMPP:**
-- Copy project ke `C:/xampp/htdocs/face-recognition/`
+- Copy project ke `C:/xampp/htdocs/FaceRecognitionBasic/`
 - Start Apache dan MySQL
-- Akses: `http://localhost/face-recognition/`
+- Akses: `http://localhost/FaceRecognitionBasic/`
 
 **PHP Built-in Server:**
 ```bash
@@ -99,7 +99,7 @@ php -S localhost:8000
 ## Project Structure
 
 ```
-face-recognition-app/
+FaceRecognitionBasic/
 ├── index.html              # Main UI
 ├── config.php              # Database configuration
 ├── register.php            # API registrasi wajah

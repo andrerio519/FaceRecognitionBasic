@@ -1,4 +1,27 @@
-# .gitignore
-   echo "uploads/*.jpg" >> .gitignore
-   echo "config.php" >> .gitignore
-   echo "*.log" >> .gitignore
+# Database Config
+api/config.php
+
+# Uploaded Photos
+uploads/*.jpg
+uploads/*.jpeg
+uploads/*.png
+!uploads/.htaccess
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
+error_log
+
+# Temporary
+*.tmp
+*.temp
+*.cache

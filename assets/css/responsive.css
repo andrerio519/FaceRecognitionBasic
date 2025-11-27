@@ -1,0 +1,14 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .header, .footer {
+        text-align: center;
+    }
+}

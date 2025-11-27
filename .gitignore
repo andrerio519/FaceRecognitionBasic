@@ -1,0 +1,4 @@
+# .gitignore
+   echo "uploads/*.jpg" >> .gitignore
+   echo "config.php" >> .gitignore
+   echo "*.log" >> .gitignore
